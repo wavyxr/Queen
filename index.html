@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="build/css/app.css">
+    <title>Freddie Mercury</title>
+</head>
+<body >
+    
+    
+    <header class="header-principal">
+        <div class="header-conteiner">
+            <h1> Freddy Mercury</h1>
+            <nav class="nav-header">
+                <a href="#Biografia">¿Quien es?</a>
+                <a href="#Albums">Albums mas escuchados</a>
+                <a href="#Canciones">Canciones mas escuchadas</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="Biografia" class="info-conteiner">
+            <h2>Quien era Freddy Mercury</h2>
+            <div class="info">
+                <p>Freddie Mercury fue un cantante, compositor y pianista británico, conocido principalmente como el vocalista principal de la banda de rock Queen. Nació en Zanzíbar en 1946 y se mudó a Inglaterra en su adolescencia. Junto con Queen, Mercury alcanzó fama mundial con canciones como "Bohemian Rhapsody", "We Will Rock You" y "We Are the Champions". También tuvo una carrera en solitario y colaboró con otros artistas, como Montserrat Caballé.
+                </p>
+
+                <img src="img/03.jpg" alt="Freddy">
+            </div>
+        </section>
+
+        <section id="Albums" class="galeria contenedor">
+            <h3>Albums mas conocidos</h3>
+            <ul class="galeria-imagenes"></ul>
+        </section>
+
+
+
+        <section id="Canciones" class="canciones">
+            <h3>Canciones mas Conocidas</h3>
+                <ol class="contenedor-canciones">
+                    
+                </ol>
+        </section>
+    
+        <div id="particles-js"></div>
+        
+    </main>    
+        
+    
+    
+    <script src="build/particle/particles.js-master/particles.min.js"></script>
+        <script>
+            particlesJS(
+                {
+  "particles": {
+    "number": {
+      "value": 29,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 4,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 3,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+            )
+        </script>
+    <script src="build/js/script.js"></script>
+    
+    
+    
+</body>
+</html>
+
+
